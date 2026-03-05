@@ -1,9 +1,9 @@
 # osTicket Help Desk Home Lab (Azure)
 
 ## Introduction
-This project demonstrates the deployment and configuration of an **osTicket help desk environment** using a **Microsoft Azure Virtual Machine**. The goal of this lab was to simulate a real-world IT help desk environment by installing the required technologies, configuring the ticketing system, and performing common help desk administrative tasks.
+This project demonstrates the deployment and configuration of an osTicket help desk environment using a Microsoft Azure Virtual Machine. The goal of this lab was to simulate a real-world IT help desk environment by installing the required technologies, configuring the ticketing system, and performing common help desk administrative tasks.
 
-This repository includes screenshots showing the **Azure infrastructure setup, osTicket installation, system configuration, and ticket workflow management**.
+This repository includes screenshots showing the Azure infrastructure setup, osTicket installation, system configuration, and ticket workflow management.
 
 ---
 
@@ -33,19 +33,19 @@ This repository includes screenshots showing the **Azure infrastructure setup, o
 # Azure Environment Setup
 
 ## Created Azure Resource Group
-Created a **Resource Group in Microsoft Azure** to organize and manage all resources used for the osTicket help desk lab.
+Created a Resource Group in Microsoft Azure to organize and manage all resources used for the osTicket help desk lab.
 
 <img width="1208" height="750" alt="resource group creation" src="https://github.com/user-attachments/assets/84323c89-6aad-4c66-b0dd-3df9f518ffc9" />
 <img width="1360" height="601" alt="resource group creation 2" src="https://github.com/user-attachments/assets/0119fc1d-d7ee-418d-8fca-7eef633ab336" />
 
 ## Created Virtual Machine in Azure
-Deployed a **Windows Virtual Machine** within the resource group and configured the necessary settings to host the osTicket environment.
+Deployed a Windows Virtual Machine within the resource group and configured the necessary settings to host the osTicket environment.
 
 <img width="1362" height="738" alt="created vm azure" src="https://github.com/user-attachments/assets/5f1e5568-8f74-43ae-bc3a-6f82134aa1b7" />
 
 
 ## Connected to Virtual Machine Using RDP
-Used **Remote Desktop Protocol (RDP)** to securely connect to the virtual machine and begin installing the required software.
+Used Remote Desktop Protocol (RDP) to securely connect to the virtual machine and begin installing the required software.
 
 <img width="1346" height="766" alt="deployment of vm" src="https://github.com/user-attachments/assets/68401808-826a-4a7a-b19d-60821d89f7c4" />
 
@@ -87,12 +87,6 @@ Configured departments to organize support teams and route incoming tickets appr
 
 <img width="595" height="168" alt="departments" src="https://github.com/user-attachments/assets/2bb7fbe4-42f9-4ef1-934c-3ef73fadcaba" />
 
-
-## Departments
-Reviewed the department configuration to ensure proper ticket routing.
-
-*(Insert Screenshot Here)*
-
 ---
 
 # User and Agent Configuration
@@ -113,7 +107,7 @@ Added support agents and assigned them to departments and roles.
 # Ticket Management
 
 ## SLA Agreements
-Configured **Service Level Agreements (SLAs)** to define response and resolution times for support tickets.
+Configured Service Level Agreements (SLAs) to define response and resolution times for support tickets.
 
 <img width="629" height="255" alt="sla agreements" src="https://github.com/user-attachments/assets/0ab2927a-573a-4924-b134-a4ef422f8068" />
 
@@ -127,4 +121,4 @@ Created and managed support tickets to simulate real IT support scenarios and de
 
 # Project Outcome
 
-This lab successfully deployed a fully functional **osTicket help desk system in a Microsoft Azure Virtual Machine**. The project demonstrates hands-on experience with **cloud deployment, help desk ticketing systems, system configuration, and IT support workflows**.
+This lab successfully deployed a fully functional osTicket help desk system in a Microsoft Azure Virtual Machine. The project demonstrates hands-on experience with cloud deployment, help desk ticketing systems, system configuration, and IT support workflows.
