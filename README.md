@@ -1,5 +1,3 @@
-# osTicket-Help-Desk-Lab-Microsoft-Azure
-
 # osTicket Help Desk Home Lab (Azure)
 
 ## Introduction
@@ -20,6 +18,7 @@ This repository includes screenshots showing the **Azure infrastructure setup, o
 - MySQL
 - osTicket Ticketing System
 <img width="1293" height="721" alt="programs downloaded" src="https://github.com/user-attachments/assets/8079eafa-91b3-496d-8b35-2c2cfc44d1bd" />
+<img width="758" height="711" alt="intalled as well" src="https://github.com/user-attachments/assets/97eed2ee-c781-4e3c-9083-e4727863adc9" />
 
 ### Skills Demonstrated
 
@@ -109,12 +108,6 @@ Added support agents and assigned them to departments and roles.
 
 <img width="657" height="420" alt="config and add agents" src="https://github.com/user-attachments/assets/1e9c1403-3ec9-49d4-a54e-872c6283af8b" />
 
-
-## Agent Panel
-Accessed the **Agent Panel**, where support staff manage and resolve support tickets.
-
-*(Insert Screenshot Here)*
-
 ---
 
 # Ticket Management
@@ -124,12 +117,11 @@ Configured **Service Level Agreements (SLAs)** to define response and resolution
 
 <img width="629" height="255" alt="sla agreements" src="https://github.com/user-attachments/assets/0ab2927a-573a-4924-b134-a4ef422f8068" />
 
+## tickets need solved
 
-## Tickets Need Solved
-Created and resolved example tickets to simulate real IT support requests.
+Created and managed support tickets to simulate real IT support scenarios and demonstrate ticket resolution workflow.
 
-<img width="783" height="311" alt="tickets " src="https://github.com/user-attachments/assets/26206ae2-a501-40dd-bebe-16392e5d0a4f" />
-
+<img width="783" height="311" alt="tickets " src="https://github.com/user-attachments/assets/9aed701f-518d-4e24-8446-13d0840f66f8" />
 
 ---
 
