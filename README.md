@@ -1,56 +1,138 @@
 # osTicket-Help-Desk-Lab-Microsoft-Azure
-Lab Overview
 
-This lab demonstrates the deployment and configuration of an osTicket help desk system in a Microsoft Azure virtual machine. The environment was configured using IIS, PHP, and MySQL, and accessed through Remote Desktop Protocol (RDP).
+# osTicket Help Desk Home Lab (Azure)
 
-The objective of this lab was to simulate a real-world IT help desk environment, including:
+## Introduction
+This project demonstrates the deployment and configuration of an **osTicket help desk environment** using a **Microsoft Azure Virtual Machine**. The goal of this lab was to simulate a real-world IT help desk environment by installing the required technologies, configuring the ticketing system, and performing common help desk administrative tasks.
 
-Installing and configuring osTicket
+This repository includes screenshots showing the **Azure infrastructure setup, osTicket installation, system configuration, and ticket workflow management**.
 
-Creating roles, departments, and support agents
+---
 
-Configuring Service Level Agreements (SLAs)
+# Lab Overview
 
-Managing and resolving simulated support tickets
+### Technologies Used
 
-Technologies used in this lab include:
+- Microsoft Azure (Virtual Machines)
+- Remote Desktop Protocol (RDP)
+- Internet Information Services (IIS)
+- PHP
+- MySQL
+- osTicket Ticketing System
+<img width="1293" height="721" alt="programs downloaded" src="https://github.com/user-attachments/assets/8079eafa-91b3-496d-8b35-2c2cfc44d1bd" />
 
-Microsoft Azure Virtual Machines
+### Skills Demonstrated
 
-Remote Desktop Protocol (RDP)
+- Cloud Virtual Machine Deployment
+- Help Desk Ticketing System Configuration
+- User and Role Access Management
+- IT Support Workflow Simulation
+- SLA and Ticket Management
 
-Internet Information Services (IIS)
+---
 
-PHP
+# Azure Environment Setup
 
-MySQL
+## Created Azure Resource Group
+Created a **Resource Group in Microsoft Azure** to organize and manage all resources used for the osTicket help desk lab.
 
-osTicket Ticketing System
+<img width="1208" height="750" alt="resource group creation" src="https://github.com/user-attachments/assets/84323c89-6aad-4c66-b0dd-3df9f518ffc9" />
+<img width="1360" height="601" alt="resource group creation 2" src="https://github.com/user-attachments/assets/0119fc1d-d7ee-418d-8fca-7eef633ab336" />
 
-2. Add a “Skills Demonstrated” Section
+## Created Virtual Machine in Azure
+Deployed a **Windows Virtual Machine** within the resource group and configured the necessary settings to host the osTicket environment.
 
-Recruiters scan for skills fast, so this helps a lot.
+<img width="1362" height="738" alt="created vm azure" src="https://github.com/user-attachments/assets/5f1e5568-8f74-43ae-bc3a-6f82134aa1b7" />
 
-Skills Demonstrated
 
-Help Desk Ticketing Systems
+## Connected to Virtual Machine Using RDP
+Used **Remote Desktop Protocol (RDP)** to securely connect to the virtual machine and begin installing the required software.
 
-IT Support Workflow Management
+<img width="1346" height="766" alt="deployment of vm" src="https://github.com/user-attachments/assets/68401808-826a-4a7a-b19d-60821d89f7c4" />
 
-System Installation & Configuration
 
-User and Role Access Management
+---
 
-Service Level Agreement (SLA) Configuration
+# osTicket Installation
 
-Virtual Machine Deployment (Microsoft Azure)
+## Completion of osTicket Download
+Downloaded the osTicket installation files and prepared the server environment with the required dependencies.
 
-Troubleshooting and Ticket Resolution
+<img width="597" height="351" alt="completion of osticket" src="https://github.com/user-attachments/assets/dd2eb15f-96ef-41c5-bc73-f99edbd4d062" />
 
-3. Add a “Project Outcome” Section (This is the big one)
 
-This shows what you actually accomplished.
+## Setup osTicket in Browser
+Completed the web-based installation by configuring the database and initializing the osTicket help desk system.
 
-Project Outcome
+<img width="589" height="412" alt="setup osticket in browser" src="https://github.com/user-attachments/assets/f4f9d462-33e9-4777-8c09-4255ffd62188" />
 
-By completing this lab, I successfully deployed a fully functional osTicket help desk environment and simulated common IT support tasks such as ticket submission, ticket prioritization, and ticket resolution. This project demonstrates hands-on experience with ticketing systems, system configuration, and IT support operations similar to those used in professional help desk environments.
+
+---
+
+# System Configuration
+
+## Add New Roles Under Permissions
+Created new roles within the admin panel to define permission levels for help desk agents.
+
+<img width="545" height="474" alt="add new roles under permissions" src="https://github.com/user-attachments/assets/5a328fa8-3f79-4c63-ab19-29958c014d0c" />
+
+
+## Successfully Added Roles
+Verified that role permissions were successfully applied.
+
+<img width="666" height="389" alt="success added roles" src="https://github.com/user-attachments/assets/41c2e381-c79a-447b-9adf-0224f5dbbcaa" />
+
+
+## Created Departments
+Configured departments to organize support teams and route incoming tickets appropriately.
+
+<img width="595" height="168" alt="departments" src="https://github.com/user-attachments/assets/2bb7fbe4-42f9-4ef1-934c-3ef73fadcaba" />
+
+
+## Departments
+Reviewed the department configuration to ensure proper ticket routing.
+
+*(Insert Screenshot Here)*
+
+---
+
+# User and Agent Configuration
+
+## Created and Registered Users
+Created user accounts to simulate customers submitting help desk requests.
+
+<img width="596" height="347" alt="created and registered users" src="https://github.com/user-attachments/assets/67e5afd8-c589-4c7e-b731-855050ed0de2" />
+
+
+## Configured and Added New Agents
+Added support agents and assigned them to departments and roles.
+
+<img width="657" height="420" alt="config and add agents" src="https://github.com/user-attachments/assets/1e9c1403-3ec9-49d4-a54e-872c6283af8b" />
+
+
+## Agent Panel
+Accessed the **Agent Panel**, where support staff manage and resolve support tickets.
+
+*(Insert Screenshot Here)*
+
+---
+
+# Ticket Management
+
+## SLA Agreements
+Configured **Service Level Agreements (SLAs)** to define response and resolution times for support tickets.
+
+<img width="629" height="255" alt="sla agreements" src="https://github.com/user-attachments/assets/0ab2927a-573a-4924-b134-a4ef422f8068" />
+
+
+## Tickets Need Solved
+Created and resolved example tickets to simulate real IT support requests.
+
+<img width="783" height="311" alt="tickets " src="https://github.com/user-attachments/assets/26206ae2-a501-40dd-bebe-16392e5d0a4f" />
+
+
+---
+
+# Project Outcome
+
+This lab successfully deployed a fully functional **osTicket help desk system in a Microsoft Azure Virtual Machine**. The project demonstrates hands-on experience with **cloud deployment, help desk ticketing systems, system configuration, and IT support workflows**.
